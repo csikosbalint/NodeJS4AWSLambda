@@ -4,7 +4,7 @@ describe('Blobs', function () {
     it('should list ALL blobs on /blobs GET', function (done) {
         console.log('test');
         var app = require('../cds/app');
-        app.myHandler(null, null, function (a,msg) {
+        app.myHandler(null, null, function (a, msg) {
             console.log(msg);
             done();
         });
